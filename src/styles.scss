@@ -8,21 +8,19 @@
   }
 }
 
-.bkgd{
-  video {
-    opacity: .3;
-  }
-}
-
 .hero {
-  height: 66vh;
+  height: 100vh;
 }
 
 .jumbotron {
+  a, a:hover {
+    text-decoration: none;
+    color: #080808;
+  }
   h1 {
-    font-size: 8rem;
+    font-size: 12rem;
     @media (min-width: 575px) {
-      font-size: 12rem;
+      font-size: 14rem;
     }
     @media (min-width: 767px) {
       font-size: 16rem;
