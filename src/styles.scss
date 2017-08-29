@@ -4,12 +4,31 @@
     color: white;
   }
   a:hover {
-    color: black;
+    color: #141414;
   }
 }
 
 .bkgd{
   video {
     opacity: .3;
+  }
+}
+
+.hero {
+  height: 66vh;
+}
+
+.jumbotron {
+  h1 {
+    font-size: 8rem;
+    @media (min-width: 575px) {
+      font-size: 12rem;
+    }
+    @media (min-width: 767px) {
+      font-size: 16rem;
+    }
+  }
+  h1, h2, h3, h4, h5, i {
+    color: black;
   }
 }

@@ -8,7 +8,9 @@
   text-align: center;
 }
 .hero {
-  background: rgba(2, 32, 41, 0.7);
+  /* background: rgba(2, 32, 41, 0.7); */
+  background: url('components/fetch/diagonal-pattern.png');
+  background-position: center center;
 }
 .navbar-toggler { 
   border: none !important;
@@ -34,9 +36,30 @@
   position: relative;
    /* offset */
   top: 100px;
-  width: 100%;
+  width: 80%;
   opacity: 0;
+}
+.brick-show {
+  top: 0px;
+  width: 100%;
+  opacity: 1;
 }
 .brick img {
   width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
