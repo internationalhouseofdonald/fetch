@@ -1,6 +1,4 @@
-body {
-  background: #141414;
-}
+
 .navbar-nav {
   a {
     text-decoration: none;
@@ -13,6 +11,7 @@ body {
 
 .hero {
   height: 66.66vh;
+  min-height: 600px;
 }
 
 .jumbotron {
@@ -78,15 +77,28 @@ body {
   position: relative;
   /* offset */
   width: 100%;
-    image {
-      height: 33.33vh;
-    }
+  height: 33.33vh;
+  background: url('http://www.placehold.it/500x200');
+  background-position: center center;
+    // image {
+    //   height: 28vh;
+    //   max-width: 100%;
+    // }
 }
 .brick {
   position: relative;
   /* offset */
   top: 100px;
   width: 80%;
+  min-width: 400px;
+  vertical-align: top;
+  @media (min-width: 767px) {
+    width: 90%;
+    min-width: 0;
+  }
+  @media (min-width: 900px) {
+    width: 100%;
+  }
   opacity: 0;
 }
 .brick-show {
