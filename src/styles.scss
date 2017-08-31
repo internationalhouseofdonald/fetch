@@ -42,9 +42,6 @@
   z-index: -1;
   text-align: center;
 }
-.card {
-  border-radius: 25px;
-}
 .hero {
   /* background: rgba(2, 32, 41, 0.7); */
   background: url('components/fetch/diagonal-pattern.png');
@@ -71,6 +68,35 @@
 
 .brick-columns {
   border: none;
+}
+@media (min-width: 767px) {
+  #column-1 {
+    max-width: 17vw;
+    h1 {
+      font-size: 2rem;
+    }
+    .card {
+      border-radius: 4px;
+    }
+  }
+  #column-2 {
+    max-width: 47vw;  
+    h1 {
+      font-size: 6rem;
+    }
+    .card {
+      border-radius: 25px;
+    }
+  }
+  #column-3 {
+    max-width: 27vw;
+    h1 {
+      font-size: 3rem;
+    }
+    .card {
+      border-radius: 10px;
+    }
+  }
 }
 .brick-foundation {
   top: 0px;
