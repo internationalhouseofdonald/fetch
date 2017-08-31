@@ -1,3 +1,6 @@
+body {
+  background: #141414;
+}
 .navbar-nav {
   a {
     text-decoration: none;
@@ -9,7 +12,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 66.66vh;
 }
 
 .jumbotron {
@@ -30,3 +33,83 @@
     color: black;
   }
 }
+
+.bkgd {
+  content: "";
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  z-index: -1;
+  text-align: center;
+}
+.card {
+  border-radius: 25px;
+}
+.hero {
+  /* background: rgba(2, 32, 41, 0.7); */
+  background: url('components/fetch/diagonal-pattern.png');
+  background-position: center center;
+}
+.navbar-toggler { 
+  border: none !important;
+}
+.jumbotron, .navbar{
+  border: none !important;
+  background: rgba(0,0,0,0) !important;
+  box-shadow: none !important;
+}
+.navbar-toggler-right {
+  z-index: 9;
+}
+
+
+
+
+
+
+
+
+.brick-columns {
+  border: none;
+}
+.brick-foundation {
+  top: 0px;
+  position: relative;
+  /* offset */
+  width: 100%;
+    image {
+      height: 33.33vh;
+    }
+}
+.brick {
+  position: relative;
+  /* offset */
+  top: 100px;
+  width: 80%;
+  opacity: 0;
+}
+.brick-show {
+  top: 0px;
+  width: 100%;
+  opacity: 1;
+}
+.brick img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
