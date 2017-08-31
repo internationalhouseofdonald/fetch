@@ -20,7 +20,7 @@ function animate_bricks() {
   Object.keys(bricks).forEach(function(element, index, array) {
     var rect = bricks[index].getBoundingClientRect();
     // console.log(index, rect.top, rect.right, rect.bottom, rect.left);
-    if (rect.top < window.innerHeight + 100) {
+    if (rect.top < window.innerHeight) {
       $('.brick:eq(' + index + ')').animate({
         opacity: 1,
         top: 0,
