@@ -16,13 +16,13 @@
   min-height: 600px;
   @media (min-width: 900px) {
     height: 66.66vh;
-    min-height: 0;
+    min-height: 500px;
   }
 }
 .navbar-nav {
   a {
     text-decoration: none;
-    color: white;
+    // color: white;
   }
   a:hover {
     color: #141414;
@@ -47,14 +47,22 @@
   h1 {
     font-size: 12rem;
     @media (min-width: 575px) {
-      font-size: 14rem;
+      font-size: 8rem;
     }
     @media (min-width: 767px) {
+      font-size: 10rem;
+    }
+    @media (min-width: 1600px) {
       font-size: 16rem;
     }
   }
   h1, h2, h3, h4, h5, i {
     color: black;
+  }
+}
+.jumbotron-img {
+  img {
+    max-height: 40%;
   }
 }
 
@@ -97,7 +105,7 @@
 }
 .brick-column-container {
   @media (max-width: 767px) {
-    background: #e6e6e6;
+    background: #eee;
   }
 }
 .brick-columns {
@@ -105,12 +113,13 @@
 }
 @media (min-width: 767px) {
   #column-1 {
+    // border: 1px solid black;
     position: relative;
     left: 0px;
     background: url('components/fetch/diagonal-pattern.png');
     max-width: 17%;
     h1 {
-      font-size: 2rem;
+      font-size: 1rem;
     }
     .card {
       border: none;
@@ -118,11 +127,11 @@
     }
   }
   #column-2 {
+    // border: 1px solid black;
     position: relative;
-    left: 25px;
-    max-width: 50%;  
+    max-width: 60%;  
     h1 {
-      font-size: 6rem;
+      font-size: 3rem;
     }
     .card {
       border: none;
@@ -135,11 +144,12 @@
     }
   }
   #column-3 {
+    // border: 1px solid black;
     position: relative;
     background: rgba(255,255,255,.3);
     max-width: 23%;
     h1 {
-      font-size: 2rem;
+      font-size: 1rem;
     }
     .card {
       border-radius: 0;
@@ -154,10 +164,10 @@
     }
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
   #column-3 {
     h1 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 }
