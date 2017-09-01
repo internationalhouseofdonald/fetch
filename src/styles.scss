@@ -60,11 +60,11 @@
     color: black;
   }
 }
-.jumbotron-img {
-  img {
-    max-height: 40%;
-  }
-}
+// .jumbotron-img {
+//   img {
+//     max-height: 40%;
+//   }
+// }
 
 
 
@@ -136,11 +136,6 @@
     .card {
       border: none;
       background: none;
-    }
-    .last-brick {
-      @media (min-width: 1600px) {
-        display: none;
-      }
     }
   }
   #column-3 {
